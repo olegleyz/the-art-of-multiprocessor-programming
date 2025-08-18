@@ -60,6 +60,8 @@ This is **starvation**, when some threads are perpetually denied access to share
 
 Here is a Python version of the Dining Philosophers problem using `threading.Lock` and `Thread`.
 
+**📁 Complete implementation**: [`dining_philosophers.py`](./dining_philosophers.py)
+
 ```python
 from threading import Lock, Thread
 import time, random

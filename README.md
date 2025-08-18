@@ -1,10 +1,10 @@
 # The Art of Multiprocessor Programming - Study Notes & Exercises
 
-This repository contains my reflections, notes, and code exercises while studying "The Art of Multiprocessor Programming" by Maurice Herlihy and Nir Shavit.
+This repository contains my reflections, notes, and code exercises while studying [The Art of Multiprocessor Programming](https://amzn.to/4oHoc9R) by Maurice Herlihy and Nir Shavit.
 
 ## About the Book
 
-"The Art of Multiprocessor Programming" is a comprehensive guide to the principles and practice of multiprocessor programming. It covers fundamental concepts of concurrent programming, synchronization primitives, lock-free data structures, and the theoretical foundations of parallel computing.
+[The Art of Multiprocessor Programming](https://amzn.to/4oHoc9R) is a comprehensive guide to the principles and practice of multiprocessor programming. It covers fundamental concepts of concurrent programming, synchronization primitives, lock-free data structures, and the theoretical foundations of parallel computing.
 
 ## Study Approach
 
