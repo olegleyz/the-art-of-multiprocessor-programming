@@ -1,7 +1,7 @@
 # Chapter 2: Mutual Exclusion - Reflections
 
 ## Overview
-Mutual exclusion is the most common coordination pattern in multiprocessor programming. The chapter presents classical algorithms (rarely used in production) that help build intuition — and would have been useful for the "philosophers" in Chapter 1.
+Mutual exclusion is the most common coordination pattern in multiprocessor programming. The chapter presents classical algorithms (rarely used in production) that help build intuition - and would have been useful for the ["philosophers" in Chapter 1](https://medium.com/@ironengineer/the-dijkstras-dinner-party-that-explains-concurrency-e8a06c469d07?sk=367f8d0dbd91551f96a479d0c0be241d).
 
 A critical section is the part of code where processes access shared memory. Only one process may execute it at a time.
 
@@ -40,7 +40,7 @@ Every algorithm defines a short doorway section:
 
 ```mermaid
 flowchart TD
-   A[Thread arrives] --> B[Doorway section<br>(quick, bounded work)]
+   A[Thread arrives] --> B["Doorway section<br/>(quick, bounded work)"]
    B --> C[Waiting room / queue]
    C --> D[Critical Section]
 ```
